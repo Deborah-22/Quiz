@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="Quiz.css">
+</head>
+
+<body>
+  <div class="box">
+    <h1>Let's play some trivia</h1>
+
+  <div class="buttons">
+    <button id="startBtn">Click me to start</button>
+  </div>
+
+  <div class="triviaBox">
+    <form id="quiz" class="hidden" name="quiz">
+      <p>1. What color is the sky?</p>
+      <input type="radio" name="q1" value="Blue">Blue<br>
+      <input type="radio" name="q1" value="Green">Green<br>
+      <input type="radio" name="q1" value="Yellow">Yellow<br>
+
+      <p>2. What is the largest animal in the world?</p>
+      <input type="radio" name="q2" value="Antarctic Blue Whale">Antarctic Blue Whale<br>
+      <input type="radio" name="q2" value="Elephant">Elephant<br>
+      <input type="radio" name="q2" value="Giraffe">Giraffe<br>
+
+      <p>3. What is 100 divided by 2?</p>
+      <input type="radio" name="q3" value="30">30<br>
+      <input type="radio" name="q3" value="100">100<br>
+      <input type="radio" name="q3" value="50">50<br>
+
+      <p>4. What is the hottest place on earth?</p>
+      <input type="radio" name="q4" value="Death Valley">Death Valley, CA<br>
+      <input type="radio" name="q4" value="Turbat">Turbat, Pakistan<br>
+      <input type="radio" name="q4" value="Dallol">Dallol, Ethiopia<br>
+
+      <p>5. How many states make up the US?</p>
+      <input type="radio" name="q5" value="50">50<br>
+      <input type="radio" name="q5" value="52">52<br>
+      <input type="radio" name="q5" value="53">53<br>
+
+      <input id="endBtn" type="button" value="Submit answers" class="hidden" onclick="checkAnswers()">
+    </form>
+
+    <div id="results">
+    <p id="correctAnswers"></p>
+  </div>
+  </div>
+  </div>
+
+
+<script src="Quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body{
+  background-color:rgb(50, 134, 218);
+  text-align:center;
+  padding:50px;
+  font-family:'Gloock', serif;
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: rgb(227, 167, 177);
+  text-align: center;
+}
+
+.box{
+  max-width: 400px;
+  background-color: rgb(226, 228, 232);
+  margin:auto;
+  padding:20px;
+}
+
+.hidden{
+  display:none;
+}
+
